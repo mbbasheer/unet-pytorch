@@ -1,0 +1,11 @@
+# PyTorch built for CUDA 12.4 (NVIDIA GPUs). The same wheel also runs on CPU, just slowly.
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0
+
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.9
+tifffile>=2024.1
+imagecodecs>=2024.1  # tifffile needs this for the LZW-compressed U373 frames
+jupyterlab>=4.2
+ipykernel>=6.29

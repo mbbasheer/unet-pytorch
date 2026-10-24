@@ -1,0 +1,13 @@
+# Third-party downloads (see README for where to get them)
+u-net-release/
+ISBI-2012-challenge/
+*.pdf
+
+# Training outputs
+checkpoints/
+outputs/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
